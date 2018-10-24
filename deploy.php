@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 	/**
 	 * GIT DEPLOYMENT SCRIPT
 	 *
@@ -26,6 +29,7 @@
 		$output .= htmlentities(trim($tmp)) . "\n";
 	}
 	// Make it pretty for manual user access (and why not?)
+	file_put_contents('log.txt', $output);
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
