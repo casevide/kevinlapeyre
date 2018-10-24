@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 	 * Used for automatically deploying websites via github or bitbucket, more deets here:
 	 *
 	 *		https://gist.github.com/1809044
-	 */
+	 */ 
 	// The commands
 	$commands = array(
 		'echo $PWD',
@@ -29,7 +29,6 @@ error_reporting(E_ALL);
 		$output .= htmlentities(trim($tmp)) . "\n";
 	}
 	// Make it pretty for manual user access (and why not?)
-	file_put_contents('log.txt', $output);
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
