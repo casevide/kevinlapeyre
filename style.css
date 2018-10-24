@@ -2,14 +2,11 @@
 p {
 	position:fixed; 
 	top: 65px; left:80px;
-	font-family: 'academy sans'; 
-	font-size: 1.5em; 
-	line-height: 1.4em;
-	color:rgb(45,84,183);
 }
 
-
-@font-face {font-family: 'academy sans'; src: url(polices/Academy Sans Playtype.otf), format('otf');}
+img {
+	height: 1.5em;
+}
 
 a {
 	text-decoration: none;
