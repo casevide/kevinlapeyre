@@ -1,0 +1,23 @@
+
+p {
+	position:fixed; 
+	top: 65px; left:80px;
+	font-family: 'academy sans'; 
+	font-size: 1.6em; 
+	line-height: 1.4em;
+	color:rgb(45,84,183);
+}
+
+
+@font-face {font-family: 'academy sans'; src: url(polices/Academy Sans Playtype.otf), format('otf');}
+
+a {
+	text-decoration: none;
+	color:rgb(45,84,183);
+}
+
+a:hover {
+	color:rgb(126,163,221); 
+}
+
+body {background-image:url(images/DF010LME.jpg); background-repeat:no-repeat; background-attachment:fixed;}
