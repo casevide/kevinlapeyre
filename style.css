@@ -1,11 +1,12 @@
 
 p {
 	position:fixed; 
-	top: 65px; left:80px;
-}
+	top: 60px; left:5%;
+	}
 
 img {
-	height: 1.5em;
+	height: 1.3em;
+	max-width: 100%;
 }
 
 a {
@@ -18,10 +19,3 @@ a:hover {
 }
 
 body {background-image:url(images/DF010LME.jpg); background-repeat:no-repeat; background-attachment:fixed;}
-
-@media all and (max-width: 767px){
-	p {
-		top: 30px; left:30px;
-		font-size: 1.5em; 
-	}
-}
